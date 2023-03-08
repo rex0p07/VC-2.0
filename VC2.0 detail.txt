@@ -1,0 +1,9 @@
+Basic chatbot that uses speech recognition to understand user input and generate responses. The chatbot's responses are provided through text-to-speech functionality. The GUI for the chatbot is created using tkinter.
+
+The code imports the necessary modules such as tkinter, speech_recognition, pyttsx3, and PIL. The chatbot's replies are generated using a separate module called "replies".
+
+The code defines functions such as "talk" to handle text-to-speech functionality, "take_Command" to handle speech recognition, and "get_response" to generate responses based on user input.
+
+The code creates a GUI using tkinter by defining frames for input and output, and buttons for user interaction. The code also uses the PIL module to display an image logo for the chatbot.
+
+Overall, the code provides a basic framework for a speech-enabled chatbot with a graphical user interface.
